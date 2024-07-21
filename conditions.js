@@ -5,6 +5,7 @@ if(n%2 == 0){
     let x = 'something';
     const y = 'here only';
     console.log('even');
+    
 }else{
     console.log('odd');
 }
