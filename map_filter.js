@@ -47,4 +47,12 @@ console.log(prices2here);
 
 const names = ['ramu', 'shamu', 'pinki', 'kaliya'];
 
+const nameUC = names.map((l) => { return l.charAt(0).toUpperCase() + l.slice(1)}) 
+
+ console.log(nameUC);
+
+
+ const namePc = names.filter( (m) => { return m.length >= 5  } )
+
+ console.log(namePc);
 
