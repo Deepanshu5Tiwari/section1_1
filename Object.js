@@ -96,7 +96,7 @@ console.log(mysam);
 //filter all phones with white color
 
 const whycolor = smartphonesList.filter((colouu ) => {return colouu.colors.includes('white')})
-console.log(whycolor); 
+console.log(whycolor);
 
 
 
